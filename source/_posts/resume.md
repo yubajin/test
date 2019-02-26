@@ -44,7 +44,7 @@ categories: 职业
 - 其他工具：PowerDesigner/Axure/Maven/Apache/Nginx
 
 # 开源项目
-## [考研小助手](https://github.com/nobleF5/PEE_assistant)
+## [考研小助手(2018/3-2018/5)](https://github.com/nobleF5/PEE_assistant)
 
 项目描述：
 >一个服务考研考生的web程序，给考研学子提供推荐院校，对推荐的院校进行评分和收藏等操作，同时也给考生提供课程学习和考研资讯经验交流服务
@@ -57,7 +57,7 @@ categories: 职业
 **技术栈:spring+springmvc+spring data + jpa + sql server + selenium**
 
 
-## [图书管理系统](https://github.com/yubajin/LMS_sssp)
+## [图书管理系统(2017/4-2017/5)](https://github.com/yubajin/LMS_sssp)
 >该系统采实现功能包括用户注册、用户登录和管理员对图书信息的管理,增加新图书，查询图书，删除无用图书；以及对用户信息的管理。实现了用qq，微信，微博第三方登陆，用相关sdk实现短信验证功能
 
 **技术栈:spring+springmvc+spring data + jpa + bootstrap + html/css/js**
