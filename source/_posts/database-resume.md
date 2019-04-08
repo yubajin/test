@@ -1,5 +1,5 @@
 ---
-title: database-resume
+title: 数据库面试清单
 date: 2019-04-08 10:02:05
 tags:
     - 数据库
@@ -10,6 +10,8 @@ categories: 后端
 
 # 数据库及其框架
 ## IN
+- in在查询的时候，首先查询子查询的表，然后将内表和外表做一个笛卡尔积，然后按照条件进行筛选。所以相对内表比较小的时候，in的速度较快
+- IN适合于外表大而内表小的情况；EXISTS适合于外表小而内表大的情况，这样效率会高的
 
 ## mysql 引擎
 
@@ -91,9 +93,9 @@ use [xsgl(数据库完整性)]
 go
 begin
 	
-declare select_cursor cursor for select *
-								 from 员工人事表employee
-								 where Sex = 'F' and title = '职员'
+declare select_cursor cursor for 
+select * from 员工人事表employee
+where Sex = 'F' and title = '职员'
 								 
 open select_cursor 
 fetch next from select_cursor 
